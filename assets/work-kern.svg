@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-label="KERN design system components">
+  <defs>
+    <linearGradient id="k-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b0f12"/>
+      <stop offset="1" stop-color="#07090b"/>
+    </linearGradient>
+    <linearGradient id="k-btn" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#46e0b8"/>
+      <stop offset="1" stop-color="#37b8ff"/>
+    </linearGradient>
+    <pattern id="k-dots" width="18" height="18" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="1" fill="#ffffff" fill-opacity="0.07"/>
+    </pattern>
+    <filter id="k-blur"><feGaussianBlur stdDeviation="40"/></filter>
+  </defs>
+
+  <rect width="800" height="600" fill="url(#k-bg)"/>
+  <rect width="800" height="600" fill="url(#k-dots)"/>
+  <ellipse cx="120" cy="520" rx="220" ry="160" fill="#46e0b8" opacity="0.12" filter="url(#k-blur)"/>
+  <ellipse cx="690" cy="80" rx="180" ry="140" fill="#8f6bff" opacity="0.14" filter="url(#k-blur)"/>
+
+  <!-- header -->
+  <text x="48" y="66" font-family="Sora, Segoe UI, sans-serif" font-size="19" font-weight="700" fill="#eafaf5" letter-spacing="2">KERN</text>
+  <text x="128" y="66" font-family="Inter, Segoe UI, sans-serif" font-size="10" fill="#6f8290" letter-spacing="1.4">DESIGN SYSTEM · v2.4</text>
+  <rect x="640" y="44" width="112" height="30" rx="8" fill="#46e0b8" fill-opacity="0.12" stroke="#46e0b8" stroke-opacity="0.35"/>
+  <text x="696" y="63" text-anchor="middle" font-family="Inter, Segoe UI, sans-serif" font-size="9.5" fill="#7ff0cf" letter-spacing="1">48 COMPONENTS</text>
+  <path d="M48 84h704" stroke="#ffffff" stroke-opacity="0.08"/>
+
+  <!-- left: tokens -->
+  <text x="48" y="118" font-family="Inter, Segoe UI, sans-serif" font-size="9" fill="#6f8290" letter-spacing="1.6">COLOR TOKENS</text>
+  <g>
+    <rect x="48" y="132" width="98" height="62" rx="10" fill="#121a1e" stroke="#ffffff" stroke-opacity="0.07"/>
+    <rect x="58" y="142" width="34" height="26" rx="6" fill="#46e0b8"/>
+    <rect x="58" y="174" width="52" height="6" rx="3" fill="#ffffff" fill-opacity="0.14"/>
+
+    <rect x="156" y="132" width="98" height="62" rx="10" fill="#121a1e" stroke="#ffffff" stroke-opacity="0.07"/>
+    <rect x="166" y="142" width="34" height="26" rx="6" fill="#8f6bff"/>
+    <rect x="166" y="174" width="52" height="6" rx="3" fill="#ffffff" fill-opacity="0.14"/>
+
+    <rect x="48" y="202" width="98" height="62" rx="10" fill="#121a1e" stroke="#ffffff" stroke-opacity="0.07"/>
+    <rect x="58" y="212" width="34" height="26" rx="6" fill="#0f1518"/>
+    <rect x="58" y="244" width="52" height="6" rx="3" fill="#ffffff" fill-opacity="0.14"/>
+
+    <rect x="156" y="202" width="98" height="62" rx="10" fill="#121a1e" stroke="#ffffff" stroke-opacity="0.07"/>
+    <rect x="166" y="212" width="34" height="26" rx="6" fill="#f4f7f6"/>
+    <rect x="166" y="244" width="52" height="6" rx="3" fill="#ffffff" fill-opacity="0.14"/>
+  </g>
+
+  <text x="48" y="300" font-family="Inter, Segoe UI, sans-serif" font-size="9" fill="#6f8290" letter-spacing="1.6">TYPE SCALE</text>
+  <text x="48" y="340" font-family="Sora, Segoe UI, sans-serif" font-size="34" font-weight="600" fill="#f2faf8" letter-spacing="-1">Display 48</text>
+  <text x="48" y="368" font-family="Sora, Segoe UI, sans-serif" font-size="22" font-weight="600" fill="#dfeae7" letter-spacing="-0.4">Heading 28</text>
+  <text x="48" y="392" font-family="Inter, Segoe UI, sans-serif" font-size="14" fill="#a9bab5">Body 16 — comfortable, readable, accessible.</text>
+  <text x="48" y="412" font-family="Inter, Segoe UI, sans-serif" font-size="10" fill="#6f8290" letter-spacing="1.2">CAPTION 11 / MONO</text>
+
+  <!-- right: components -->
+  <rect x="300" y="104" width="452" height="452" rx="16" fill="#0d1216" stroke="#ffffff" stroke-opacity="0.08"/>
+  <text x="322" y="136" font-family="Inter, Segoe UI, sans-serif" font-size="9" fill="#6f8290" letter-spacing="1.4">BUTTON / VARIANT MATRIX</text>
+
+  <rect x="322" y="152" width="126" height="38" rx="10" fill="url(#k-btn)"/>
+  <text x="385" y="176" text-anchor="middle" font-family="Inter, Segoe UI, sans-serif" font-size="11" font-weight="600" fill="#04120e">Primary</text>
+  <rect x="460" y="152" width="126" height="38" rx="10" fill="#ffffff" fill-opacity="0.05" stroke="#46e0b8" stroke-opacity="0.45"/>
+  <text x="523" y="176" text-anchor="middle" font-family="Inter, Segoe UI, sans-serif" font-size="11" fill="#8ff0d6">Outline</text>
+  <rect x="598" y="152" width="126" height="38" rx="10" fill="#ffffff" fill-opacity="0.06"/>
+  <text x="661" y="176" text-anchor="middle" font-family="Inter, Segoe UI, sans-serif" font-size="11" fill="#c3d0cd">Subtle</text>
+
+  <!-- input -->
+  <text x="322" y="228" font-family="Inter, Segoe UI, sans-serif" font-size="9" fill="#6f8290" letter-spacing="1.4">FIELD / FOCUS STATE</text>
+  <rect x="322" y="240" width="402" height="42" rx="10" fill="#0a0f12" stroke="#46e0b8" stroke-opacity="0.6"/>
+  <rect x="322" y="240" width="402" height="42" rx="10" fill="#46e0b8" fill-opacity="0.04"/>
+  <rect x="336" y="256" width="96" height="8" rx="4" fill="#8ff0d6" fill-opacity="0.8"/>
+  <rect x="438" y="252" width="1.5" height="18" fill="#46e0b8"/>
+  <text x="690" y="266" text-anchor="end" font-family="Inter, Segoe UI, sans-serif" font-size="9" fill="#5f7270">✓ valid</text>
+
+  <!-- toggles -->
+  <text x="322" y="318" font-family="Inter, Segoe UI, sans-serif" font-size="9" fill="#6f8290" letter-spacing="1.4">TOGGLE / SEGMENTED</text>
+  <rect x="322" y="330" width="46" height="26" rx="13" fill="#46e0b8" fill-opacity="0.85"/>
+  <circle cx="355" cy="343" r="9" fill="#04120e"/>
+  <rect x="382" y="330" width="46" height="26" rx="13" fill="#ffffff" fill-opacity="0.07"/>
+  <circle cx="396" cy="343" r="9" fill="#7c8d8a"/>
+  <rect x="444" y="328" width="180" height="30" rx="9" fill="#ffffff" fill-opacity="0.05"/>
+  <rect x="447" y="331" width="56" height="24" rx="7" fill="#ffffff" fill-opacity="0.10"/>
+  <text x="475" y="347" text-anchor="middle" font-family="Inter, Segoe UI, sans-serif" font-size="9.5" fill="#e6f3ef">Daily</text>
+  <text x="542" y="347" text-anchor="middle" font-family="Inter, Segoe UI, sans-serif" font-size="9.5" fill="#7c8d8a">Weekly</text>
+  <text x="614" y="347" text-anchor="middle" font-family="Inter, Segoe UI, sans-serif" font-size="9.5" fill="#7c8d8a">Month</text>
+
+  <!-- card examples -->
+  <text x="322" y="396" font-family="Inter, Segoe UI, sans-serif" font-size="9" fill="#6f8290" letter-spacing="1.4">CARD / DATA</text>
+  <rect x="322" y="408" width="192" height="124" rx="12" fill="#111a1e" stroke="#ffffff" stroke-opacity="0.08"/>
+  <rect x="336" y="422" width="58" height="7" rx="3.5" fill="#ffffff" fill-opacity="0.14"/>
+  <text x="336" y="464" font-family="Sora, Segoe UI, sans-serif" font-size="24" font-weight="600" fill="#eafaf5">98.4</text>
+  <text x="386" y="464" font-family="Inter, Segoe UI, sans-serif" font-size="9" fill="#7ff0cf">+2.1%</text>
+  <path d="M336 500c22-4 30-22 48-20s24 16 40 10 18-20 34-22" fill="none" stroke="#46e0b8" stroke-width="2" stroke-linecap="round"/>
+  <path d="M336 500c22-4 30-22 48-20s24 16 40 10 18-20 34-22v34H336z" fill="#46e0b8" fill-opacity="0.10"/>
+
+  <rect x="530" y="408" width="194" height="124" rx="12" fill="#111a1e" stroke="#ffffff" stroke-opacity="0.08"/>
+  <circle cx="562" cy="440" r="14" fill="#8f6bff" fill-opacity="0.3"/>
+  <rect x="586" y="432" width="86" height="8" rx="4" fill="#ffffff" fill-opacity="0.16"/>
+  <rect x="586" y="446" width="54" height="6" rx="3" fill="#ffffff" fill-opacity="0.08"/>
+  <rect x="546" y="472" width="162" height="6" rx="3" fill="#ffffff" fill-opacity="0.07"/>
+  <rect x="546" y="486" width="132" height="6" rx="3" fill="#ffffff" fill-opacity="0.07"/>
+  <rect x="546" y="506" width="72" height="18" rx="6" fill="#46e0b8" fill-opacity="0.14"/>
+</svg>

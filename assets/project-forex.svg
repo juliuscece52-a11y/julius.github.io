@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" role="img" aria-label="Financial market chart preview">
+  <defs>
+    <linearGradient id="fxbg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a1728"/>
+      <stop offset="1" stop-color="#050a13"/>
+    </linearGradient>
+    <linearGradient id="fxgold" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#f0d9a2"/>
+      <stop offset="1" stop-color="#b98f4d"/>
+    </linearGradient>
+    <linearGradient id="fxarea" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c9a25e" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#c9a25e" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="fxgrid" width="50" height="50" patternUnits="userSpaceOnUse">
+      <path d="M50 0H0v50" fill="none" stroke="#ffffff" stroke-opacity="0.04" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="500" fill="url(#fxbg)"/>
+  <rect width="800" height="500" fill="url(#fxgrid)"/>
+
+  <rect x="60" y="58" width="680" height="344" rx="14" fill="#06101d" stroke="#ffffff" stroke-opacity="0.09"/>
+
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="90" y="96" font-size="12" letter-spacing="3" fill="#8b9bad">EUR / USD</text>
+    <text x="90" y="126" font-family="Consolas, 'Courier New', monospace" font-size="24" fill="#eef3fa">1.0874</text>
+    <text x="196" y="126" font-family="Consolas, 'Courier New', monospace" font-size="12" fill="#8fd8ac">+0.42%</text>
+    <text x="710" y="96" text-anchor="end" font-size="11" letter-spacing="2" fill="#5f7186">1H</text>
+    <text x="682" y="96" text-anchor="end" font-size="11" letter-spacing="2" fill="#5f7186">4H</text>
+    <text x="654" y="96" text-anchor="end" font-size="11" letter-spacing="2" fill="#c9a25e">1D</text>
+  </g>
+
+  <!-- grid lines -->
+  <g stroke="#ffffff" stroke-opacity="0.06">
+    <line x1="90" y1="180" x2="710" y2="180"/>
+    <line x1="90" y1="240" x2="710" y2="240"/>
+    <line x1="90" y1="300" x2="710" y2="300"/>
+    <line x1="90" y1="360" x2="710" y2="360"/>
+  </g>
+  <g font-family="Consolas, 'Courier New', monospace" font-size="10" fill="#5f7186">
+    <text x="714" y="184">1.09</text>
+    <text x="714" y="244">1.08</text>
+    <text x="714" y="304">1.07</text>
+    <text x="714" y="364">1.06</text>
+  </g>
+
+  <!-- trend area -->
+  <path d="M90 352 L140 330 L190 340 L240 300 L290 312 L340 268 L390 278 L440 236 L490 250 L540 206 L590 218 L640 180 L690 168 L710 158 L710 380 L90 380 Z" fill="url(#fxarea)"/>
+  <path d="M90 352 L140 330 L190 340 L240 300 L290 312 L340 268 L390 278 L440 236 L490 250 L540 206 L590 218 L640 180 L690 168 L710 158" fill="none" stroke="url(#fxgold)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- candles -->
+  <g stroke-width="2">
+    <g stroke="#d9c08a"><line x1="120" y1="300" x2="120" y2="368"/></g>
+    <rect x="115" y="312" width="10" height="42" rx="2" fill="#d9c08a"/>
+    <g stroke="#4f6d90"><line x1="160" y1="316" x2="160" y2="376"/></g>
+    <rect x="155" y="326" width="10" height="38" rx="2" fill="#4f6d90"/>
+    <g stroke="#d9c08a"><line x1="200" y1="286" x2="200" y2="352"/></g>
+    <rect x="195" y="298" width="10" height="40" rx="2" fill="#d9c08a"/>
+    <g stroke="#4f6d90"><line x1="240" y1="276" x2="240" y2="334"/></g>
+    <rect x="235" y="286" width="10" height="34" rx="2" fill="#4f6d90"/>
+    <g stroke="#d9c08a"><line x1="280" y1="252" x2="280" y2="322"/></g>
+    <rect x="275" y="264" width="10" height="42" rx="2" fill="#d9c08a"/>
+    <g stroke="#d9c08a"><line x1="320" y1="238" x2="320" y2="306"/></g>
+    <rect x="315" y="250" width="10" height="40" rx="2" fill="#d9c08a"/>
+    <g stroke="#4f6d90"><line x1="360" y1="242" x2="360" y2="308"/></g>
+    <rect x="355" y="252" width="10" height="38" rx="2" fill="#4f6d90"/>
+    <g stroke="#d9c08a"><line x1="400" y1="208" x2="400" y2="282"/></g>
+    <rect x="395" y="220" width="10" height="46" rx="2" fill="#d9c08a"/>
+  </g>
+
+  <!-- entry marker -->
+  <line x1="440" y1="236" x2="710" y2="236" stroke="#c9a25e" stroke-opacity="0.45" stroke-dasharray="4 6"/>
+  <circle cx="440" cy="236" r="4" fill="#e9cf92"/>
+  <rect x="520" y="196" width="128" height="38" rx="8" fill="#0a1728" stroke="#c9a25e" stroke-opacity="0.35"/>
+  <text x="536" y="220" font-family="Arial, Helvetica, sans-serif" font-size="10" letter-spacing="2" fill="#c9a25e">RISK FIRST</text>
+
+  <rect x="60" y="428" width="96" height="3" rx="1.5" fill="url(#fxgold)"/>
+  <text x="60" y="462" font-family="Arial, Helvetica, sans-serif" font-size="12" letter-spacing="4" fill="#8b9bad">MARKET STUDY</text>
+  <text x="740" y="462" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="12" letter-spacing="3" fill="#5f7186">PORTFOLIO</text>
+</svg>

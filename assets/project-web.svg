@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" role="img" aria-label="Website layout preview">
+  <defs>
+    <linearGradient id="wbg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1829"/>
+      <stop offset="1" stop-color="#050a13"/>
+    </linearGradient>
+    <linearGradient id="wgold" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#f0d9a2"/>
+      <stop offset="1" stop-color="#b98f4d"/>
+    </linearGradient>
+    <linearGradient id="wcard" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#c9a25e" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#c9a25e" stop-opacity="0.03"/>
+    </linearGradient>
+    <pattern id="wgrid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0v40" fill="none" stroke="#ffffff" stroke-opacity="0.035" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="500" fill="url(#wbg)"/>
+  <rect width="800" height="500" fill="url(#wgrid)"/>
+
+  <!-- browser -->
+  <rect x="60" y="62" width="560" height="350" rx="14" fill="#06101d" stroke="#ffffff" stroke-opacity="0.1"/>
+  <rect x="60" y="62" width="560" height="40" rx="14" fill="#0c1a2c"/>
+  <rect x="60" y="88" width="560" height="14" fill="#0c1a2c"/>
+  <circle cx="86" cy="82" r="4.5" fill="#c9a25e" fill-opacity="0.8"/>
+  <circle cx="103" cy="82" r="4.5" fill="#ffffff" fill-opacity="0.16"/>
+  <circle cx="120" cy="82" r="4.5" fill="#ffffff" fill-opacity="0.16"/>
+  <rect x="142" y="72" width="300" height="20" rx="10" fill="#050d18" stroke="#ffffff" stroke-opacity="0.07"/>
+  <text x="158" y="86" font-family="Consolas, 'Courier New', monospace" font-size="10.5" fill="#7d8fa6">juliuswamanji.com</text>
+
+  <!-- page content -->
+  <text x="96" y="164" font-family="Georgia, 'Times New Roman', serif" font-size="26" fill="#eef3fa">Build something</text>
+  <text x="96" y="196" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="26" fill="#d9c08a">meaningful.</text>
+  <rect x="96" y="216" width="250" height="7" rx="3.5" fill="#ffffff" fill-opacity="0.14"/>
+  <rect x="96" y="232" width="196" height="7" rx="3.5" fill="#ffffff" fill-opacity="0.09"/>
+  <rect x="96" y="260" width="104" height="30" rx="8" fill="url(#wgold)"/>
+  <text x="112" y="279" font-family="Arial, Helvetica, sans-serif" font-size="10" letter-spacing="1.6" fill="#0a1017">EXPLORE</text>
+
+  <rect x="404" y="146" width="180" height="112" rx="12" fill="url(#wcard)" stroke="#c9a25e" stroke-opacity="0.3"/>
+  <circle cx="494" cy="188" r="20" fill="none" stroke="#e9cf92" stroke-opacity="0.7"/>
+  <path d="M486 188l6 6 11-12" fill="none" stroke="#e9cf92" stroke-width="2" stroke-linecap="round"/>
+
+  <rect x="96" y="312" width="150" height="76" rx="10" fill="#0a1728" stroke="#ffffff" stroke-opacity="0.08"/>
+  <rect x="286" y="312" width="150" height="76" rx="10" fill="#0a1728" stroke="#ffffff" stroke-opacity="0.08"/>
+  <rect x="476" y="312" width="108" height="76" rx="10" fill="#0a1728" stroke="#ffffff" stroke-opacity="0.08"/>
+  <g fill="#ffffff" fill-opacity="0.14">
+    <rect x="112" y="332" width="46" height="6" rx="3"/>
+    <rect x="112" y="348" width="98" height="6" rx="3"/>
+    <rect x="112" y="364" width="72" height="6" rx="3"/>
+    <rect x="302" y="332" width="46" height="6" rx="3"/>
+    <rect x="302" y="348" width="96" height="6" rx="3"/>
+    <rect x="302" y="364" width="60" height="6" rx="3"/>
+    <rect x="492" y="332" width="52" height="6" rx="3"/>
+    <rect x="492" y="348" width="70" height="6" rx="3"/>
+  </g>
+
+  <!-- phone -->
+  <rect x="648" y="150" width="104" height="212" rx="18" fill="#06101d" stroke="#c9a25e" stroke-opacity="0.35"/>
+  <rect x="660" y="168" width="80" height="176" rx="10" fill="#0a1728"/>
+  <rect x="676" y="180" width="34" height="6" rx="3" fill="#c9a25e" fill-opacity="0.8"/>
+  <rect x="668" y="198" width="64" height="40" rx="6" fill="url(#wcard)"/>
+  <rect x="668" y="248" width="64" height="6" rx="3" fill="#ffffff" fill-opacity="0.14"/>
+  <rect x="668" y="262" width="44" height="6" rx="3" fill="#ffffff" fill-opacity="0.09"/>
+  <rect x="668" y="286" width="64" height="22" rx="6" fill="#c9a25e" fill-opacity="0.55"/>
+  <rect x="668" y="318" width="64" height="6" rx="3" fill="#ffffff" fill-opacity="0.08"/>
+
+  <rect x="60" y="436" width="96" height="3" rx="1.5" fill="url(#wgold)"/>
+  <text x="60" y="468" font-family="Arial, Helvetica, sans-serif" font-size="12" letter-spacing="4" fill="#8b9bad">WEB DEVELOPMENT</text>
+  <text x="740" y="468" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="12" letter-spacing="3" fill="#5f7186">PORTFOLIO</text>
+</svg>

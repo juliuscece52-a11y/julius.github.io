@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" role="img" aria-label="Python code editor preview">
+  <defs>
+    <linearGradient id="pybg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1829"/>
+      <stop offset="1" stop-color="#050b14"/>
+    </linearGradient>
+    <linearGradient id="pygold" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#f0d9a2"/>
+      <stop offset="1" stop-color="#b98f4d"/>
+    </linearGradient>
+    <pattern id="pygrid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0v40" fill="none" stroke="#ffffff" stroke-opacity="0.035" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="500" fill="url(#pybg)"/>
+  <rect width="800" height="500" fill="url(#pygrid)"/>
+
+  <rect x="70" y="66" width="660" height="330" rx="14" fill="#071120" stroke="#ffffff" stroke-opacity="0.1"/>
+  <rect x="70" y="66" width="660" height="42" rx="14" fill="#0c1a2c"/>
+  <rect x="70" y="94" width="660" height="14" fill="#0c1a2c"/>
+  <circle cx="98" cy="87" r="5" fill="#c9a25e" fill-opacity="0.85"/>
+  <circle cx="118" cy="87" r="5" fill="#ffffff" fill-opacity="0.18"/>
+  <circle cx="138" cy="87" r="5" fill="#ffffff" fill-opacity="0.18"/>
+  <text x="170" y="92" font-family="Consolas, 'Courier New', monospace" font-size="12" fill="#7d8fa6">hello.py</text>
+  <text x="700" y="92" text-anchor="end" font-family="Consolas, 'Courier New', monospace" font-size="12" fill="#c9a25e">Python 3</text>
+
+  <g font-family="Consolas, 'Courier New', monospace" font-size="15">
+    <text x="100" y="152" fill="#8fa3bb">01</text>
+    <text x="136" y="152" fill="#c993b8">def</text>
+    <text x="176" y="152" fill="#e6edf6">greet(name):</text>
+
+    <text x="100" y="184" fill="#8fa3bb">02</text>
+    <text x="176" y="184" fill="#e6edf6">message =</text>
+    <text x="264" y="184" fill="#d9c08a">f"Hello, {name}!"</text>
+
+    <text x="100" y="216" fill="#8fa3bb">03</text>
+    <text x="176" y="216" fill="#8fb9d8">print</text>
+    <text x="216" y="216" fill="#e6edf6">(message)</text>
+
+    <text x="100" y="260" fill="#8fa3bb">04</text>
+    <text x="136" y="260" fill="#c993b8">for</text>
+    <text x="170" y="260" fill="#e6edf6">skill</text>
+    <text x="212" y="260" fill="#c993b8">in</text>
+    <text x="236" y="260" fill="#e6edf6">skills:</text>
+
+    <text x="100" y="292" fill="#8fa3bb">05</text>
+    <text x="176" y="292" fill="#e6edf6">practice(skill)</text>
+
+    <text x="100" y="336" fill="#8fa3bb">06</text>
+    <text x="136" y="336" fill="#c993b8">if</text>
+    <text x="160" y="336" fill="#e6edf6">__name__ ==</text>
+    <text x="284" y="336" fill="#d9c08a">"__main__"</text>
+    <text x="368" y="336" fill="#e6edf6">:</text>
+  </g>
+
+  <rect x="468" y="240" width="234" height="128" rx="10" fill="#050d18" stroke="#c9a25e" stroke-opacity="0.3"/>
+  <text x="486" y="268" font-family="Consolas, 'Courier New', monospace" font-size="12" fill="#c9a25e">&gt;&gt;&gt; greet("Julius")</text>
+  <text x="486" y="294" font-family="Consolas, 'Courier New', monospace" font-size="13" fill="#a9e0bd">Hello, Julius!</text>
+  <rect x="486" y="316" width="128" height="8" rx="4" fill="#ffffff" fill-opacity="0.12"/>
+  <rect x="486" y="334" width="82" height="8" rx="4" fill="#ffffff" fill-opacity="0.07"/>
+
+  <rect x="70" y="424" width="96" height="3" rx="1.5" fill="url(#pygold)"/>
+  <text x="70" y="456" font-family="Arial, Helvetica, sans-serif" font-size="12" letter-spacing="4" fill="#8b9bad">LEARNING PYTHON</text>
+  <text x="730" y="456" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="12" letter-spacing="3" fill="#5f7186">PORTFOLIO</text>
+</svg>

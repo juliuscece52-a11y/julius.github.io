@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-label="ORBITAL WebGL product site">
+  <defs>
+    <radialGradient id="o-bg" cx="64%" cy="36%" r="75%">
+      <stop offset="0" stop-color="#0f2130"/>
+      <stop offset="0.55" stop-color="#080d15"/>
+      <stop offset="1" stop-color="#04060a"/>
+    </radialGradient>
+    <radialGradient id="o-core" cx="38%" cy="34%" r="62%">
+      <stop offset="0" stop-color="#eaf6ff"/>
+      <stop offset="0.35" stop-color="#7fd4ff"/>
+      <stop offset="1" stop-color="#1b6bff"/>
+    </radialGradient>
+    <linearGradient id="o-text" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#eaf2ff"/>
+      <stop offset="1" stop-color="#8ea6c9"/>
+    </linearGradient>
+    <linearGradient id="o-halo" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#59e1ff" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#8f6bff" stop-opacity="0.2"/>
+    </linearGradient>
+    <filter id="o-blur"><feGaussianBlur stdDeviation="30"/></filter>
+  </defs>
+
+  <rect width="800" height="600" fill="url(#o-bg)"/>
+  <ellipse cx="560" cy="270" rx="210" ry="200" fill="#3f9dff" opacity="0.22" filter="url(#o-blur)"/>
+
+  <!-- orbit system -->
+  <g transform="translate(548 268)">
+    <ellipse rx="228" ry="74" fill="none" stroke="url(#o-halo)" stroke-width="1" opacity="0.5" transform="rotate(-16)"/>
+    <ellipse rx="182" ry="58" fill="none" stroke="#59e1ff" stroke-opacity="0.28" stroke-width="1" transform="rotate(-16)"/>
+    <ellipse rx="132" ry="42" fill="none" stroke="#8f6bff" stroke-opacity="0.3" stroke-width="1" transform="rotate(-16)"/>
+    <ellipse rx="228" ry="74" fill="none" stroke="#ffffff" stroke-opacity="0.08" transform="rotate(34)"/>
+    <circle r="86" fill="url(#o-core)"/>
+    <circle r="86" fill="none" stroke="#ffffff" stroke-opacity="0.35"/>
+    <ellipse cx="-34" cy="-38" rx="34" ry="22" fill="#ffffff" opacity="0.22"/>
+    <circle cx="198" cy="-56" r="6" fill="#59e1ff"/>
+    <circle cx="198" cy="-56" r="14" fill="#59e1ff" opacity="0.18"/>
+    <circle cx="-152" cy="42" r="4" fill="#b06bff"/>
+  </g>
+
+  <!-- nav -->
+  <text x="48" y="62" font-family="Sora, Segoe UI, sans-serif" font-size="13" font-weight="700" letter-spacing="4" fill="#e6f1ff">ORBITAL</text>
+  <g fill="#ffffff" fill-opacity="0.28">
+    <rect x="470" y="54" width="44" height="6" rx="3"/>
+    <rect x="534" y="54" width="34" height="6" rx="3"/>
+    <rect x="588" y="54" width="40" height="6" rx="3"/>
+  </g>
+  <rect x="650" y="42" width="102" height="30" rx="15" fill="#ffffff" fill-opacity="0.08" stroke="#ffffff" stroke-opacity="0.18"/>
+  <text x="701" y="61" text-anchor="middle" font-family="Inter, Segoe UI, sans-serif" font-size="9" fill="#dfe9f7" letter-spacing="1">PRE-ORDER</text>
+
+  <!-- headline -->
+  <text x="48" y="196" font-family="Sora, Segoe UI, sans-serif" font-size="54" font-weight="700" letter-spacing="-2" fill="url(#o-text)">Orbit your</text>
+  <text x="48" y="252" font-family="Sora, Segoe UI, sans-serif" font-size="54" font-weight="700" letter-spacing="-2" fill="url(#o-text)">workspace.</text>
+  <rect x="48" y="286" width="278" height="7" rx="3.5" fill="#ffffff" fill-opacity="0.14"/>
+  <rect x="48" y="302" width="228" height="7" rx="3.5" fill="#ffffff" fill-opacity="0.10"/>
+  <rect x="48" y="318" width="252" height="7" rx="3.5" fill="#ffffff" fill-opacity="0.07"/>
+  <rect x="48" y="348" width="140" height="38" rx="10" fill="#59e1ff" fill-opacity="0.9"/>
+  <text x="118" y="372" text-anchor="middle" font-family="Inter, Segoe UI, sans-serif" font-size="11" font-weight="600" fill="#041019">Explore</text>
+  <rect x="200" y="348" width="140" height="38" rx="10" fill="none" stroke="#ffffff" stroke-opacity="0.2"/>
+  <text x="270" y="372" text-anchor="middle" font-family="Inter, Segoe UI, sans-serif" font-size="11" fill="#c8d6e8">Watch film</text>
+
+  <!-- stats strip -->
+  <g>
+    <path d="M48 452h704" stroke="#ffffff" stroke-opacity="0.08"/>
+    <g fill="#ffffff" fill-opacity="0.10">
+      <rect x="48" y="474" width="46" height="6" rx="3"/>
+      <rect x="48" y="490" width="80" height="5" rx="2.5"/>
+      <rect x="196" y="474" width="46" height="6" rx="3"/>
+      <rect x="196" y="490" width="66" height="5" rx="2.5"/>
+      <rect x="344" y="474" width="46" height="6" rx="3"/>
+      <rect x="344" y="490" width="74" height="5" rx="2.5"/>
+      <rect x="492" y="474" width="46" height="6" rx="3"/>
+      <rect x="492" y="490" width="58" height="5" rx="2.5"/>
+    </g>
+  </g>
+
+  <!-- scroll hint -->
+  <g transform="translate(720 520)">
+    <circle r="20" fill="none" stroke="#ffffff" stroke-opacity="0.14"/>
+    <path d="M0-6v10m0 0l-4-4m4 4l4-4" stroke="#8fa7c4" stroke-width="1.4" fill="none" stroke-linecap="round"/>
+  </g>
+</svg>

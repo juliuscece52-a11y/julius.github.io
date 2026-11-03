@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-label="TERRA coffee packaging">
+  <defs>
+    <linearGradient id="t-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#efe4d2"/>
+      <stop offset="1" stop-color="#ddcbb4"/>
+    </linearGradient>
+    <linearGradient id="t-cream" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fbf4e8"/>
+      <stop offset="0.55" stop-color="#f2e6d5"/>
+      <stop offset="1" stop-color="#dcc9af"/>
+    </linearGradient>
+    <linearGradient id="t-clay" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#b85a38"/>
+      <stop offset="0.5" stop-color="#9c4528"/>
+      <stop offset="1" stop-color="#6f2c17"/>
+    </linearGradient>
+    <linearGradient id="t-forest" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2f4237"/>
+      <stop offset="1" stop-color="#18241d"/>
+    </linearGradient>
+    <filter id="t-shadow" x="-30%" y="-30%" width="160%" height="180%">
+      <feDropShadow dx="0" dy="26" stdDeviation="22" flood-color="#5c4327" flood-opacity="0.35"/>
+    </filter>
+    <filter id="t-grain">
+      <feTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="3" seed="4"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.10"/></feComponentTransfer>
+    </filter>
+  </defs>
+
+  <rect width="800" height="600" fill="url(#t-bg)"/>
+  <circle cx="618" cy="120" r="190" fill="#f7eddc" opacity="0.7"/>
+  <g stroke="#8d7454" stroke-opacity="0.25" fill="none">
+    <path d="M0 470c120-34 220-34 340 0s240 34 460-4"/>
+    <path d="M0 496c120-34 220-34 340 0s240 34 460-4"/>
+  </g>
+
+  <text x="52" y="84" font-family="Sora, Segoe UI, sans-serif" font-size="20" font-weight="700" letter-spacing="7" fill="#2b2118">TERRA</text>
+  <text x="54" y="104" font-family="Inter, Segoe UI, sans-serif" font-size="9" letter-spacing="4" fill="#7a6450">SINGLE ORIGIN · SMALL BATCH</text>
+
+  <!-- bag 1 -->
+  <g filter="url(#t-shadow)" transform="translate(150 172) rotate(-4)">
+    <path d="M0 0h176v332a12 12 0 01-12 12H12a12 12 0 01-12-12z" fill="url(#t-cream)"/>
+    <path d="M0 0h176v22l-18 8H18L0 22z" fill="#c9b596"/>
+    <rect x="0" y="22" width="176" height="4" fill="#2b2118" opacity="0.15"/>
+    <text x="24" y="86" font-family="Sora, Segoe UI, sans-serif" font-size="15" font-weight="700" letter-spacing="5" fill="#2b2118">TERRA</text>
+    <path d="M24 100h128" stroke="#2b2118" stroke-opacity="0.35"/>
+    <text x="24" y="128" font-family="Instrument Serif, Georgia, serif" font-size="26" fill="#3a2c1f">Ethiopia</text>
+    <text x="24" y="148" font-family="Inter, Segoe UI, sans-serif" font-size="9" letter-spacing="2" fill="#7a6450">YIRGACHEFFE · WASHED</text>
+    <g fill="#9c4528" opacity="0.85">
+      <ellipse cx="34" cy="196" rx="9" ry="13" transform="rotate(-18 34 196)"/>
+      <ellipse cx="58" cy="188" rx="8" ry="12" transform="rotate(14 58 188)"/>
+      <ellipse cx="78" cy="202" rx="7" ry="11" transform="rotate(-30 78 202)"/>
+    </g>
+    <rect x="24" y="240" width="128" height="1" fill="#2b2118" opacity="0.25"/>
+    <text x="24" y="268" font-family="Inter, Segoe UI, sans-serif" font-size="8" letter-spacing="1.5" fill="#5c4a39">JASMINE · BERGAMOT</text>
+    <text x="24" y="282" font-family="Inter, Segoe UI, sans-serif" font-size="8" letter-spacing="1.5" fill="#5c4a39">PEACH · HONEY</text>
+    <text x="152" y="318" text-anchor="end" font-family="Sora, Segoe UI, sans-serif" font-size="14" fill="#2b2118">250g</text>
+  </g>
+
+  <!-- bag 2 -->
+  <g filter="url(#t-shadow)" transform="translate(340 140)">
+    <path d="M0 0h190v366a12 12 0 01-12 12H12a12 12 0 01-12-12z" fill="url(#t-clay)"/>
+    <path d="M0 0h190v24l-20 8H20L0 24z" fill="#7a3a22"/>
+    <text x="26" y="96" font-family="Sora, Segoe UI, sans-serif" font-size="17" font-weight="700" letter-spacing="6" fill="#f6e8d6">TERRA</text>
+    <path d="M26 112h138" stroke="#f6e8d6" stroke-opacity="0.4"/>
+    <text x="26" y="146" font-family="Instrument Serif, Georgia, serif" font-size="30" fill="#fbf1e3">Colombia</text>
+    <text x="26" y="168" font-family="Inter, Segoe UI, sans-serif" font-size="9" letter-spacing="2" fill="#e4c9b8">HUILA · NATURAL</text>
+    <circle cx="150" cy="228" r="34" fill="none" stroke="#f6e8d6" stroke-opacity="0.55"/>
+    <path d="M150 200v56M132 214l36 28M168 214l-36 28" stroke="#f6e8d6" stroke-opacity="0.3"/>
+    <rect x="26" y="286" width="138" height="1" fill="#f6e8d6" opacity="0.28"/>
+    <text x="26" y="314" font-family="Inter, Segoe UI, sans-serif" font-size="8" letter-spacing="1.5" fill="#eccfb9">COCOA · ORANGE</text>
+    <text x="26" y="330" font-family="Inter, Segoe UI, sans-serif" font-size="8" letter-spacing="1.5" fill="#eccfb9">BROWN SUGAR</text>
+    <text x="164" y="360" text-anchor="end" font-family="Sora, Segoe UI, sans-serif" font-size="14" fill="#f6e8d6">250g</text>
+  </g>
+
+  <!-- bag 3 -->
+  <g filter="url(#t-shadow)" transform="translate(566 196) rotate(5)">
+    <path d="M0 0h156v308a12 12 0 01-12 12H12a12 12 0 01-12-12z" fill="url(#t-forest)"/>
+    <path d="M0 0h156v22l-16 8H16L0 22z" fill="#22362b"/>
+    <text x="22" y="80" font-family="Sora, Segoe UI, sans-serif" font-size="13" font-weight="700" letter-spacing="5" fill="#e8dfc9">TERRA</text>
+    <path d="M22 94h112" stroke="#e8dfc9" stroke-opacity="0.35"/>
+    <text x="22" y="120" font-family="Instrument Serif, Georgia, serif" font-size="23" fill="#f2ead8">Decaf</text>
+    <text x="22" y="138" font-family="Inter, Segoe UI, sans-serif" font-size="8" letter-spacing="1.8" fill="#b9c6b2">SWISS WATER</text>
+    <g fill="none" stroke="#e8dfc9" stroke-opacity="0.35">
+      <path d="M22 182c30-26 76-26 106 0"/>
+      <path d="M22 198c30-26 76-26 106 0"/>
+      <path d="M22 214c30-26 76-26 106 0"/>
+    </g>
+    <text x="134" y="292" text-anchor="end" font-family="Sora, Segoe UI, sans-serif" font-size="13" fill="#e8dfc9">250g</text>
+  </g>
+
+  <text x="52" y="556" font-family="Inter, Segoe UI, sans-serif" font-size="9" letter-spacing="3" fill="#7a6450">PACKAGING SYSTEM 02 — EARTH SERIES</text>
+
+  <rect width="800" height="600" filter="url(#t-grain)" opacity="0.6" style="mix-blend-mode:multiply"/>
+</svg>

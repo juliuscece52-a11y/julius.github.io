@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" role="img" aria-label="Digital business idea map preview">
+  <defs>
+    <linearGradient id="dbbg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a1728"/>
+      <stop offset="1" stop-color="#050a13"/>
+    </linearGradient>
+    <linearGradient id="dbgold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f2dcab"/>
+      <stop offset="1" stop-color="#b48a48"/>
+    </linearGradient>
+    <radialGradient id="dbglow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#c9a25e" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#c9a25e" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dbgrid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0v40" fill="none" stroke="#ffffff" stroke-opacity="0.035" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="500" fill="url(#dbbg)"/>
+  <rect width="800" height="500" fill="url(#dbgrid)"/>
+  <circle cx="400" cy="230" r="190" fill="url(#dbglow)"/>
+
+  <!-- connectors -->
+  <g stroke="#c9a25e" stroke-opacity="0.35" stroke-dasharray="5 7">
+    <line x1="400" y1="230" x2="222" y2="140"/>
+    <line x1="400" y1="230" x2="596" y2="132"/>
+    <line x1="400" y1="230" x2="216" y2="330"/>
+    <line x1="400" y1="230" x2="592" y2="326"/>
+  </g>
+
+  <!-- centre -->
+  <circle cx="400" cy="230" r="62" fill="#071120" stroke="#c9a25e" stroke-opacity="0.55"/>
+  <circle cx="400" cy="230" r="74" fill="none" stroke="#c9a25e" stroke-opacity="0.18"/>
+  <text x="400" y="224" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="20" fill="url(#dbgold)">An idea</text>
+  <text x="400" y="248" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="9.5" letter-spacing="3" fill="#8b9bad">WORTH BUILDING</text>
+
+  <!-- satellites -->
+  <g>
+    <circle cx="222" cy="140" r="46" fill="#0a1728" stroke="#ffffff" stroke-opacity="0.12"/>
+    <text x="222" y="137" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11" letter-spacing="2" fill="#dbe5f2">BRAND</text>
+    <text x="222" y="154" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#71809a">identity</text>
+
+    <circle cx="596" cy="132" r="46" fill="#0a1728" stroke="#ffffff" stroke-opacity="0.12"/>
+    <text x="596" y="129" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11" letter-spacing="2" fill="#dbe5f2">WEB</text>
+    <text x="596" y="146" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#71809a">presence</text>
+
+    <circle cx="216" cy="330" r="46" fill="#0a1728" stroke="#ffffff" stroke-opacity="0.12"/>
+    <text x="216" y="327" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11" letter-spacing="2" fill="#dbe5f2">PAY</text>
+    <text x="216" y="344" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#71809a">online</text>
+
+    <circle cx="592" cy="326" r="46" fill="#0a1728" stroke="#ffffff" stroke-opacity="0.12"/>
+    <text x="592" y="323" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11" letter-spacing="2" fill="#dbe5f2">GROWTH</text>
+    <text x="592" y="340" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#71809a">patience</text>
+  </g>
+
+  <rect x="60" y="428" width="96" height="3" rx="1.5" fill="url(#dbgold)"/>
+  <text x="60" y="462" font-family="Arial, Helvetica, sans-serif" font-size="12" letter-spacing="4" fill="#8b9bad">DIGITAL BUSINESS</text>
+  <text x="740" y="462" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="12" letter-spacing="3" fill="#5f7186">PORTFOLIO</text>
+</svg>
