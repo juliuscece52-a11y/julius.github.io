@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Julius Cheche Wamanji — Curriculum Vitae</title>
+  <meta name="description" content="Curriculum vitae for Julius Cheche Wamanji: security operations, cleaning and housekeeping experience, based in Doha, Qatar." />
+  <meta name="robots" content="noindex, follow" />
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Instrument+Serif:ital@1&family=Sora:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <style>
+    /* ---------------------------------------------------------------- base */
+    :root {
+      --bg: #060c16;
+      --navy: #0a1424;
+      --ink: #eef2f8;
+      --muted: #9aa8bc;
+      --muted-2: #74839a;
+      --gold: #c9a25e;
+      --gold-2: #e9cf92;
+      --line: rgba(255, 255, 255, 0.09);
+      --font-display: "Sora", "Segoe UI", system-ui, sans-serif;
+      --font-body: "Inter", "Segoe UI", system-ui, sans-serif;
+      --font-serif: "Instrument Serif", Georgia, serif;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      padding: 40px 20px 64px;
+      background:
+        radial-gradient(700px 440px at 88% -10%, rgba(201, 162, 94, 0.14), transparent 70%),
+        var(--bg);
+      color: var(--ink);
+      font-family: var(--font-body);
+      font-size: 15px;
+      line-height: 1.7;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    a { color: inherit; text-decoration: none; }
+    h1, h2, h3, p, ul { margin: 0; }
+    ul { padding: 0; list-style: none; }
+
+    /* ------------------------------------------------------------- toolbar */
+    .toolbar {
+      max-width: 860px;
+      margin: 0 auto 18px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+    .back {
+      font-size: 13.5px;
+      font-weight: 500;
+      color: var(--muted);
+      transition: color 0.3s ease;
+    }
+    .back:hover { color: var(--gold-2); }
+    .print {
+      padding: 10px 18px;
+      border: 1px solid rgba(201, 162, 94, 0.4);
+      border-radius: 10px;
+      background: rgba(201, 162, 94, 0.12);
+      color: var(--gold-2);
+      font: inherit;
+      font-size: 13px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background 0.3s ease, border-color 0.3s ease;
+    }
+    .print:hover { background: rgba(201, 162, 94, 0.22); border-color: var(--gold); }
+
+    /* --------------------------------------------------------------- sheet */
+    .sheet {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 54px 58px 48px;
+      border: 1px solid var(--line);
+      border-radius: 22px;
+      background: linear-gradient(165deg, rgba(255, 255, 255, 0.045), rgba(255, 255, 255, 0.012));
+      box-shadow: 0 50px 110px -60px #000;
+    }
+
+    .cv-head {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 30px;
+      padding-bottom: 28px;
+      border-bottom: 1px solid var(--line);
+    }
+    .cv-eyebrow {
+      font-size: 10px;
+      font-weight: 600;
+      letter-spacing: 0.26em;
+      text-transform: uppercase;
+      color: var(--gold);
+    }
+    h1 {
+      margin-top: 12px;
+      font-family: var(--font-display);
+      font-size: clamp(1.7rem, 4vw, 2.3rem);
+      font-weight: 600;
+      line-height: 1.1;
+      letter-spacing: -0.04em;
+    }
+    .cv-role {
+      margin-top: 10px;
+      font-family: var(--font-serif);
+      font-style: italic;
+      font-size: 1.08rem;
+      color: #c8d4e4;
+    }
+    .cv-contact { text-align: right; font-size: 13px; color: var(--muted); }
+    .cv-contact p + p { margin-top: 5px; }
+    .cv-contact a { border-bottom: 1px solid rgba(201, 162, 94, 0.4); }
+    .cv-contact a:hover { color: var(--gold-2); }
+
+    .sheet > section + section, .cv-cols { margin-top: 30px; }
+
+    h2 {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-family: var(--font-display);
+      font-size: 10.5px;
+      font-weight: 600;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: var(--gold);
+    }
+    h2::after {
+      content: "";
+      flex: 1;
+      height: 1px;
+      background: var(--line);
+    }
+    section > p, section > ul, .cv-entry { margin-top: 14px; }
+    section > p { color: var(--muted); font-size: 14px; }
+
+    .cv-entry + .cv-entry { margin-top: 22px; padding-top: 20px; border-top: 1px dashed var(--line); }
+    .cv-entry-top {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+    .cv-entry h3 {
+      font-family: var(--font-display);
+      font-size: 15.5px;
+      font-weight: 600;
+      letter-spacing: -0.015em;
+    }
+    .cv-date {
+      font-size: 11px;
+      font-weight: 500;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--gold);
+    }
+    .cv-org { margin-top: 3px; font-size: 12.5px; color: var(--muted-2); }
+    .cv-entry ul { margin-top: 10px; display: grid; gap: 6px; }
+    .cv-entry li {
+      position: relative;
+      padding-left: 17px;
+      font-size: 13.5px;
+      line-height: 1.6;
+      color: #c2cedd;
+    }
+    .cv-entry li::before {
+      content: "";
+      position: absolute;
+      left: 1px;
+      top: 8px;
+      width: 4px;
+      height: 4px;
+      border-radius: 50%;
+      background: var(--gold);
+    }
+
+    .cv-cols { display: grid; grid-template-columns: 1fr 1fr; gap: 34px; align-items: start; }
+    .cv-cols ul { display: flex; flex-wrap: wrap; gap: 7px; margin-top: 14px; }
+    .cv-cols li {
+      padding: 5px 11px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      font-size: 12px;
+      color: #c2cedd;
+    }
+
+    .cv-note {
+      margin-top: 34px;
+      padding-top: 18px;
+      border-top: 1px solid var(--line);
+      font-size: 11.5px;
+      color: var(--muted-2);
+    }
+
+    @media (max-width: 700px) {
+      body { padding: 24px 14px 44px; }
+      .sheet { padding: 32px 22px 30px; }
+      .cv-head { flex-direction: column; gap: 18px; }
+      .cv-contact { text-align: left; }
+      .cv-cols { grid-template-columns: 1fr; gap: 26px; }
+    }
+
+    /* --------------------------------------------------------------- print */
+    @page { margin: 14mm 15mm; }
+
+    @media print {
+      body {
+        padding: 0;
+        background: #fff;
+        color: #101820;
+        font-size: 11pt;
+        line-height: 1.5;
+      }
+      .toolbar { display: none; }
+      .sheet {
+        max-width: none;
+        margin: 0;
+        padding: 0;
+        border: none;
+        border-radius: 0;
+        background: none;
+        box-shadow: none;
+      }
+      .cv-head { border-bottom-color: #d5dbe2; }
+      h1 { color: #0a1424; }
+      .cv-eyebrow, h2, .cv-date { color: #8a6a2f; }
+      .cv-role { color: #33404f; }
+      .cv-contact, .cv-contact a { color: #33404f; }
+      .cv-contact a { border-bottom-color: #c9c1b1; }
+      h2::after { background: #d5dbe2; }
+      section > p, .cv-org { color: #4a5665; }
+      .cv-entry li, .cv-cols li { color: #202b38; }
+      .cv-cols li { border-color: #d5dbe2; }
+      .cv-entry + .cv-entry { border-top-color: #e2e6eb; }
+      .cv-note { color: #5b6876; border-top-color: #d5dbe2; }
+      section, .cv-entry { break-inside: avoid; }
+    }
+  </style>
+</head>
+<body>
+  <div class="toolbar">
+    <a class="back" href="index.html">&larr; Back to portfolio</a>
+    <button class="print" id="printBtn" type="button">Print / Save as PDF</button>
+  </div>
+
+  <main class="sheet">
+    <header class="cv-head">
+      <div>
+        <p class="cv-eyebrow">Curriculum Vitae</p>
+        <h1>Julius Cheche Wamanji</h1>
+        <p class="cv-role">Security operations &middot; Cleaning &amp; housekeeping &middot; Aspiring technologist</p>
+      </div>
+      <div class="cv-contact">
+        <p><a href="mailto:juliuscece52@gmail.com">juliuscece52@gmail.com</a></p>
+        <p>Doha, Qatar</p>
+        <!-- Replace with your own LinkedIn profile URL -->
+        <p><a href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn profile</a></p>
+      </div>
+    </header>
+
+    <section>
+      <h2>Profile</h2>
+      <p>
+        A motivated and hardworking professional currently based in Doha, Qatar, with experience in
+        security operations, cleaning services and housekeeping. Passionate about technology, financial
+        markets, digital innovation and entrepreneurship, and committed to continuous learning, personal
+        growth and creating opportunities for the future.
+      </p>
+    </section>
+
+    <section>
+      <h2>Professional experience</h2>
+
+      <article class="cv-entry">
+        <div class="cv-entry-top">
+          <h3>Cleaning &amp; Housekeeping</h3>
+          <span class="cv-date">2023 &mdash; 2025</span>
+        </div>
+        <p class="cv-org">Cleaning services and housekeeping &middot; Qatar</p>
+        <ul>
+          <li>Delivered professional cleaning services to a consistent standard.</li>
+          <li>Carried out day-to-day housekeeping operations.</li>
+          <li>Managed and maintained cleaning equipment.</li>
+          <li>Upheld hygiene standards across all work areas.</li>
+          <li>Followed health and safety procedures at all times.</li>
+        </ul>
+      </article>
+
+      <article class="cv-entry">
+        <div class="cv-entry-top">
+          <h3>Security Guard</h3>
+          <span class="cv-date">2022 &mdash; 2023</span>
+        </div>
+        <p class="cv-org">Hatari Security &middot; Kenya</p>
+        <ul>
+          <li>Security monitoring and surveillance.</li>
+          <li>Access control at entry and exit points.</li>
+          <li>Maintained safety and security on site.</li>
+          <li>Reported incidents accurately and on time.</li>
+        </ul>
+      </article>
+    </section>
+
+    <div class="cv-cols">
+      <section>
+        <h2>Skills</h2>
+        <ul>
+          <li>Security operations</li>
+          <li>Professional cleaning</li>
+          <li>Housekeeping</li>
+          <li>Teamwork &amp; communication</li>
+          <li>Computer literacy</li>
+          <li>Microsoft Office</li>
+          <li>Basic Python programming</li>
+          <li>Website development</li>
+          <li>Problem solving</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Areas of interest</h2>
+        <ul>
+          <li>Technology &amp; AI</li>
+          <li>Forex &amp; financial markets</li>
+          <li>Programming &amp; game development</li>
+          <li>Entrepreneurship</li>
+          <li>Personal finance &amp; investing</li>
+          <li>Continuous learning</li>
+        </ul>
+      </section>
+    </div>
+
+    <section>
+      <h2>Currently developing</h2>
+      <p>
+        Studying Python fundamentals and building small games with Tkinter, exploring responsive website
+        development, and learning the basics of financial markets with a focus on risk and discipline.
+        Alongside this, researching digital business opportunities and personal finance.
+      </p>
+    </section>
+
+    <p class="cv-note">References available on request.</p>
+  </main>
+
+  <script>
+    document.getElementById('printBtn').addEventListener('click', function () {
+      window.print();
+    });
+  </script>
+</body>
+</html>
