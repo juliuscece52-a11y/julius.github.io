@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-label="Night security shift at a guarded entrance">
+  <defs>
+    <linearGradient id="sbg" x1="0" y1="0" x2="0.4" y2="1">
+      <stop offset="0" stop-color="#0a1a2c"/>
+      <stop offset="0.55" stop-color="#071120"/>
+      <stop offset="1" stop-color="#04080f"/>
+    </linearGradient>
+    <radialGradient id="slamp" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#f4dcae" stop-opacity="0.75"/>
+      <stop offset="0.45" stop-color="#c9a25e" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#c9a25e" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="scone" x1="0" y1="0" x2="0.4" y2="1">
+      <stop offset="0" stop-color="#f0d9a2" stop-opacity="0.24"/>
+      <stop offset="1" stop-color="#f0d9a2" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="sgold" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#f2dcab"/>
+      <stop offset="1" stop-color="#b98f4d"/>
+    </linearGradient>
+    <linearGradient id="sground" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0d1e30"/>
+      <stop offset="1" stop-color="#050b14"/>
+    </linearGradient>
+    <pattern id="sgrid" width="46" height="46" patternUnits="userSpaceOnUse">
+      <path d="M46 0H0v46" fill="none" stroke="#ffffff" stroke-opacity="0.035" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="800" height="600" fill="url(#sbg)"/>
+  <rect width="800" height="600" fill="url(#sgrid)"/>
+
+  <!-- ground -->
+  <rect y="418" width="800" height="182" fill="url(#sground)"/>
+  <path d="M0 418h800" stroke="#ffffff" stroke-opacity="0.08"/>
+
+  <!-- wall -->
+  <rect x="0" y="286" width="430" height="132" fill="#061121"/>
+  <rect x="0" y="286" width="430" height="132" fill="url(#sgrid)" opacity="0.6"/>
+  <path d="M0 300h430" stroke="#ffffff" stroke-opacity="0.06"/>
+  <g stroke="#0d2135" stroke-width="2">
+    <path d="M52 300v118M104 300v118M156 300v118M208 300v118M260 300v118M312 300v118M364 300v118"/>
+  </g>
+
+  <!-- gate posts and barrier -->
+  <rect x="430" y="250" width="26" height="168" fill="#0a1a2b"/>
+  <rect x="648" y="250" width="26" height="168" fill="#0a1a2b"/>
+  <g transform="rotate(-14 470 330)">
+    <rect x="466" y="322" width="196" height="15" rx="7.5" fill="#e9cf92" fill-opacity="0.85"/>
+    <g fill="#08131f" fill-opacity="0.85">
+      <rect x="492" y="322" width="18" height="15"/>
+      <rect x="538" y="322" width="18" height="15"/>
+      <rect x="584" y="322" width="18" height="15"/>
+      <rect x="630" y="322" width="18" height="15"/>
+    </g>
+  </g>
+
+  <!-- guard booth -->
+  <rect x="520" y="206" width="128" height="212" rx="6" fill="#071426" stroke="#ffffff" stroke-opacity="0.1"/>
+  <rect x="536" y="228" width="96" height="86" rx="4" fill="#12283a"/>
+  <rect x="536" y="228" width="96" height="86" rx="4" fill="url(#slamp)" opacity="0.5"/>
+  <path d="M536 271h96M584 228v86" stroke="#08131f" stroke-width="3" opacity="0.6"/>
+  <rect x="548" y="338" width="72" height="8" rx="4" fill="#ffffff" fill-opacity="0.1"/>
+  <rect x="548" y="356" width="52" height="6" rx="3" fill="#ffffff" fill-opacity="0.07"/>
+  <path d="M520 206h128" stroke="url(#sgold)" stroke-width="2"/>
+
+  <!-- lamp over booth -->
+  <circle cx="584" cy="192" r="26" fill="#f4dcae" fill-opacity="0.9"/>
+  <circle cx="584" cy="192" r="64" fill="url(#slamp)"/>
+  <path d="M584 150v34" stroke="#ffffff" stroke-opacity="0.18" stroke-width="2"/>
+
+  <!-- CCTV camera -->
+  <g transform="translate(300 190)">
+    <rect x="0" y="0" width="8" height="42" fill="#0a1a2b"/>
+    <path d="M-38 42h84" stroke="#0a1a2b" stroke-width="8" stroke-linecap="round"/>
+    <rect x="-30" y="46" width="76" height="30" rx="8" fill="#0c1e30" stroke="#ffffff" stroke-opacity="0.14"/>
+    <circle cx="46" cy="61" r="9" fill="#050e18" stroke="#e9cf92" stroke-opacity="0.55" stroke-width="1.5"/>
+    <circle cx="46" cy="61" r="3" fill="#f2dcab"/>
+  </g>
+  <path d="M348 258L462 420L236 420z" fill="url(#scone)"/>
+
+  <!-- badge card -->
+  <g transform="translate(94 132) rotate(-7)">
+    <rect width="132" height="186" rx="12" fill="#0b1a2b" stroke="#c9a25e" stroke-opacity="0.35"/>
+    <rect x="12" y="12" width="108" height="12" rx="6" fill="#e9cf92" fill-opacity="0.5"/>
+    <circle cx="66" cy="78" r="26" fill="#12283a" stroke="#c9a25e" stroke-opacity="0.3"/>
+    <circle cx="66" cy="70" r="9" fill="#e9cf92" fill-opacity="0.45"/>
+    <path d="M52 92a14 14 0 0128 0z" fill="#e9cf92" fill-opacity="0.35"/>
+    <rect x="26" y="120" width="80" height="7" rx="3.5" fill="#ffffff" fill-opacity="0.16"/>
+    <rect x="40" y="136" width="52" height="6" rx="3" fill="#ffffff" fill-opacity="0.1"/>
+    <rect x="26" y="156" width="80" height="18" rx="4" fill="#e9cf92" fill-opacity="0.12"/>
+  </g>
+
+  <!-- floor light -->
+  <path d="M584 302L392 600h360l-40-298z" fill="#f0d9a2" fill-opacity="0.05"/>
+
+  <rect x="0.5" y="0.5" width="799" height="599" fill="none" stroke="#c9a25e" stroke-opacity="0.12"/>
+</svg>

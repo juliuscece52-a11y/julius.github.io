@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-label="A study desk with a laptop, notebook and coffee at night">
+  <defs>
+    <linearGradient id="kbg" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0" stop-color="#0b1c2e"/>
+      <stop offset="0.55" stop-color="#071322"/>
+      <stop offset="1" stop-color="#04080f"/>
+    </linearGradient>
+    <radialGradient id="klamp" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#f6e3bb" stop-opacity="0.7"/>
+      <stop offset="0.4" stop-color="#c9a25e" stop-opacity="0.24"/>
+      <stop offset="1" stop-color="#c9a25e" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="kdesk" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#102438"/>
+      <stop offset="1" stop-color="#070f1a"/>
+    </linearGradient>
+    <linearGradient id="kgold" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#f2dcab"/>
+      <stop offset="1" stop-color="#b98f4d"/>
+    </linearGradient>
+    <pattern id="kgrid" width="44" height="44" patternUnits="userSpaceOnUse">
+      <path d="M44 0H0v44" fill="none" stroke="#ffffff" stroke-opacity="0.04" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="800" height="600" fill="url(#kbg)"/>
+  <rect width="800" height="600" fill="url(#kgrid)"/>
+  <circle cx="196" cy="176" r="190" fill="url(#klamp)"/>
+
+  <!-- desk -->
+  <rect y="430" width="800" height="26" fill="#0c1d2e"/>
+  <rect y="456" width="800" height="144" fill="url(#kdesk)"/>
+  <path d="M0 430h800" stroke="#ffffff" stroke-opacity="0.1"/>
+  <path d="M0 456h800" stroke="#ffffff" stroke-opacity="0.05"/>
+
+  <!-- laptop -->
+  <g>
+    <rect x="288" y="176" width="330" height="222" rx="12" fill="#061020" stroke="#ffffff" stroke-opacity="0.14"/>
+    <rect x="300" y="188" width="306" height="198" rx="6" fill="#081827"/>
+    <g font-family="Consolas, 'Courier New', monospace" font-size="13">
+      <text x="318" y="216" fill="#7d8fa6">01</text>
+      <text x="346" y="216" fill="#c993b8">def</text>
+      <text x="378" y="216" fill="#dbe6f2">practice(skill):</text>
+      <text x="318" y="242" fill="#7d8fa6">02</text>
+      <text x="346" y="242" fill="#dbe6f2">learn = study(skill)</text>
+      <text x="318" y="268" fill="#7d8fa6">03</text>
+      <text x="346" y="268" fill="#c993b8">return</text>
+      <text x="392" y="268" fill="#d9c08a">learn</text>
+      <text x="318" y="306" fill="#7d8fa6">04</text>
+      <text x="346" y="306" fill="#8fb9d8">for</text>
+      <text x="374" y="306" fill="#dbe6f2">hour</text>
+      <text x="414" y="306" fill="#8fb9d8">in</text>
+      <text x="436" y="306" fill="#dbe6f2">hours:</text>
+      <text x="318" y="332" fill="#7d8fa6">05</text>
+      <text x="346" y="332" fill="#a9e0bd">&#160;&#160;&#160;&#160;practice(hour)</text>
+    </g>
+    <rect x="318" y="352" width="9" height="16" fill="#e9cf92" fill-opacity="0.8"/>
+    <rect x="274" y="398" width="358" height="14" rx="6" fill="#0a1a2b" stroke="#ffffff" stroke-opacity="0.12"/>
+    <path d="M362 405h180" stroke="#ffffff" stroke-opacity="0.2" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <!-- desk lamp -->
+  <g>
+    <ellipse cx="196" cy="424" rx="46" ry="9" fill="#050d17"/>
+    <path d="M196 424V300l62-56" stroke="#0e2133" stroke-width="7" stroke-linecap="round" fill="none"/>
+    <path d="M236 236l52-20 30 34-40 26z" fill="#0e2133" stroke="#ffffff" stroke-opacity="0.1"/>
+    <ellipse cx="266" cy="256" rx="30" ry="12" fill="#f4dcae" fill-opacity="0.75"/>
+  </g>
+  <path d="M266 256L166 430h330L276 262z" fill="#f0d9a2" fill-opacity="0.05"/>
+
+  <!-- notebook -->
+  <g transform="translate(56 336) rotate(-6)">
+    <rect width="170" height="104" rx="8" fill="#0c1d2e" stroke="#c9a25e" stroke-opacity="0.28"/>
+    <path d="M22 26h124M22 46h124M22 66h86" stroke="#ffffff" stroke-opacity="0.12" stroke-width="2" stroke-linecap="round"/>
+    <g fill="none" stroke="#e9cf92" stroke-opacity="0.7" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M18 76l4 4 7-8"/>
+      <path d="M18 56l4 4 7-8"/>
+    </g>
+    <rect x="132" y="72" width="7" height="46" rx="3.5" fill="#e9cf92" fill-opacity="0.5"/>
+  </g>
+
+  <!-- mug -->
+  <g transform="translate(636 366)">
+    <path d="M0 0h66v44a16 16 0 01-16 16H16A16 16 0 010 44z" fill="#0e2133" stroke="#ffffff" stroke-opacity="0.12"/>
+    <path d="M66 10h12a14 14 0 010 28H66" fill="none" stroke="#ffffff" stroke-opacity="0.16" stroke-width="5"/>
+    <ellipse cx="33" cy="1" rx="33" ry="8" fill="#16283c"/>
+    <ellipse cx="33" cy="1" rx="24" ry="5" fill="#3a2a1c"/>
+    <g stroke="#f4dcae" stroke-opacity="0.35" stroke-width="2" fill="none" stroke-linecap="round">
+      <path d="M20 -22c6-8 0-14 4-22"/>
+      <path d="M40 -18c6-8 0-14 4-20"/>
+    </g>
+  </g>
+
+  <!-- headphones -->
+  <g transform="translate(660 150)">
+    <path d="M0 46a46 46 0 0192 0" fill="none" stroke="#0e2133" stroke-width="9"/>
+    <rect x="-12" y="42" width="24" height="44" rx="11" fill="#0e2133" stroke="#e9cf92" stroke-opacity="0.3"/>
+    <rect x="80" y="42" width="24" height="44" rx="11" fill="#0e2133" stroke="#e9cf92" stroke-opacity="0.3"/>
+  </g>
+
+  <g fill="#f2dcab" fill-opacity="0.45">
+    <path d="M528 120l3 8 8 3-8 3-3 8-3-8-8-3 8-3z"/>
+    <path d="M112 176l2.4 6.2 6.2 2.4-6.2 2.4-2.4 6.2-2.4-6.2-6.2-2.4 6.2-2.4z"/>
+  </g>
+
+  <rect x="0.5" y="0.5" width="799" height="599" fill="none" stroke="#c9a25e" stroke-opacity="0.12"/>
+</svg>

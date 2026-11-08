@@ -17,7 +17,7 @@ install: open `index.html` and it works.
 | `styles.css` | All styling. Colours, type and layout live here |
 | `script.js` | Navigation, scroll reveals, copy-email, WhatsApp link and the contact form |
 | `cv.html` | A clean CV page (opens in a new tab; print or save as PDF) |
-| `assets/` | Portrait placeholder, favicon and the five project preview images |
+| `assets/` | Favicon, the five project preview images and the five gallery illustrations |
 
 ---
 
@@ -70,7 +70,24 @@ Each card has a screenshot slot and a link slot.
   ```
   Delete the `<!--` and `-->` and add your URL. The link styling is already in place.
 
-### 5. Colours and type
+### 5. Gallery photographs
+
+The **Gallery** section (`#gallery`) shows eight images: three photographs (your portrait plus
+`Urban elegance in Doha at dusk.png` and `A Day of Mini Me Moments.png`, all in the project root) and
+five illustrations in `assets/gallery-*.svg`. To use your own photographs:
+
+1. Put the photo in `assets/` or the project root.
+2. In `index.html`, find `<!-- ==================== GALLERY` and change the matching `<img src="…">`.
+3. Update that card’s `alt` text, its tag (`Portrait`, `Style`, `On shift` …) and its caption.
+
+The photo tiles (`class="gallery-item is-photo"`) are taller (4:5) than the illustration tiles (4:3), so
+they suit portrait shots — especially the hero-style portrait images. They are cropped around the upper
+third, controlled by `object-position` in `styles.css`. The three photographs are 2–2.6 MB PNGs; export
+JPG/WebP copies around 1200 px wide if the page feels slow to load.
+
+Add or remove `<figure class="gallery-item">` blocks freely — the grid reflows on its own.
+
+### 6. Colours and type
 
 All colours are CSS variables at the top of `styles.css`:
 
@@ -85,7 +102,7 @@ All colours are CSS variables at the top of `styles.css`:
 
 Changing `--gold` / `--gold-2` updates buttons, icons, underlines and highlights everywhere.
 
-### 6. SEO
+### 7. SEO
 
 At the top of `index.html`:
 
